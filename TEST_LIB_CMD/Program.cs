@@ -16,11 +16,13 @@ namespace TEST_LIB_CMD
 
                 C_4G[] Mes_Antennes = La_Base.Get_All_Antennes();
 
-                Console.WriteLine(Mes_Antennes.Length);
+                //Console.WriteLine(Mes_Antennes.Length);
 
-                foreach (var une_antenne in Mes_Antennes) {
-                    Console.WriteLine(une_antenne);
-                }
+                //foreach (var une_antenne in Mes_Antennes) {
+                //    Console.WriteLine(une_antenne);
+                //}
+
+              
 
             } 
             catch (Exception e) {

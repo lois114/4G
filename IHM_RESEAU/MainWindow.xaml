@@ -22,7 +22,7 @@
             <RowDefinition Height="100" />
 
         </Grid.RowDefinitions>
-        
+
         <ListBox x:Name="LST_REGIONS" Grid.Column="0" Background="Aqua" Margin="5" FontFamily="Bahnschrift" SelectionChanged="LST_REGIONS_SelectionChanged" >
             <ListBox.Effect>
                 <DropShadowEffect/>
@@ -38,16 +38,24 @@
                 <DropShadowEffect/>
             </ListBox.Effect>
         </ListBox>
-        <ListBox x:Name="LST_4G" Grid.Column="3" Background="OrangeRed" Margin="5"  >
+        <ListBox x:Name="LST_4G" Background="OrangeRed" Margin="0,13,10,25" Grid.Row="1"  >
             <ListBox.Effect>
                 <DropShadowEffect/>
             </ListBox.Effect>
         </ListBox>
-        <CARTE:Map x:Name="La_Carte" Grid.Column="3" Margin="195,0,5,0" Grid.ColumnSpan="2"/>
-        <CheckBox x:Name="Mode" Content="Mode"  Grid.Column="4" Grid.Row="1" Click="Mode_Click" IsChecked="true"/>
+        <CARTE:Map x:Name="La_Carte" Grid.Column="2" Margin="195,0,5,0" Grid.ColumnSpan="3"/>
+        <Button x:Name="SFR_B" Grid.Column="3" Content="SFR" HorizontalAlignment="Left" Margin="11,16,0,0" Grid.Row="1" VerticalAlignment="Top" Background="Green" Height="17" Width="78" Click="SFR_B_Click" />
+        <Button x:Name="ORANGE_B" Grid.Column="3" Content="ORANGE" HorizontalAlignment="Left" Margin="11,36,0,0" Grid.Row="1" VerticalAlignment="Top" Background="Orange"  Height="17" Width="78" Click="ORANGE_B_Click"/>
+        <Button x:Name="BOUYGUES_B" Grid.Column="3" Content="BOUYGUES" HorizontalAlignment="Left" Margin="11,57,0,0" Grid.Row="1" VerticalAlignment="Top" Background="Blue"  Height="17" Width="78" Click="BOUYGUES_B_Click"/>
+        <Button x:Name="FREE_B" Grid.Column="3" Content="FREE" HorizontalAlignment="Left" Margin="100,16,0,0" Grid.Row="1" VerticalAlignment="Top" Background="RED"  Height="17" Width="78" Click="FREE_B_Click"/>
+        <Button x:Name="ALL_B" Grid.Column="3" Content="ALL" HorizontalAlignment="Left" Margin="100,36,0,0" Grid.Row="1" VerticalAlignment="Top" Background="WhiteSmoke"  Height="17" Width="78" Click="ALL_B_Click"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="3" Grid.Row="1"/>
+
+
         <!--<Label x:Name="gps_lat"  Grid.Column="3" Content="" HorizontalAlignment="Left" Height="54" Margin="10,320,0,0" VerticalAlignment="Top" Width="107" Background="White" BorderBrush="#FF0E6675" BorderThickness="1" />
         <Label x:Name="gps_long"  Grid.Column="3" Content="" HorizontalAlignment="Left" Height="54" Margin="10,379,0,0" VerticalAlignment="Top" Width="107" BorderBrush="#FF0E6675" BorderThickness="1"/>-->
 
     </Grid>
+
 
 </Window>

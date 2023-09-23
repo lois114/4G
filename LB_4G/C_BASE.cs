@@ -6,7 +6,8 @@ using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Reflection.Emit;
-
+using System.Xml.Linq;
+using System.Runtime.CompilerServices;
 
 namespace LB_4G
 {
@@ -26,6 +27,8 @@ namespace LB_4G
 
             Mes_antennes = JsonSerializer.Deserialize<C_4G[]>(Data_Json);
 
+            //C_4G[] freeAntennes = Array.FindAll(Mes_antennes, antenne => antenne.Adm == "FREE");
+
             Data_Json = File.ReadAllText("regions.json");
 
             Mes_Regions = JsonSerializer.Deserialize<C_REGIONS[]>(Data_Json);
@@ -38,9 +41,62 @@ namespace LB_4G
 
             Les_Villes = JsonSerializer.Deserialize<List<C_VILLE>>(Data_Json);
 
-
+          
         }
+        public List<C_4G> Get_Just_Free(string P_CODE)
+        {
 
+            var FREE_ANTENNE = new List<C_4G>();
+
+            for (int i = 0; i < Mes_antennes.Length; i++) {
+
+                if ((Mes_antennes[i].Adm) == "FREE MOBILE" && Mes_antennes[i].CP == P_CODE) {
+                    FREE_ANTENNE.Add(Mes_antennes[i]);
+                }
+            }
+
+            return FREE_ANTENNE;
+        }
+        public List<C_4G> Get_Just_Orange(string P_CODE)
+        {
+
+            var Orange_Antenne = new List<C_4G>();
+
+            for (int i = 0; i < Mes_antennes.Length; i++) {
+
+                if ((Mes_antennes[i].Adm) == "ORANGE" && Mes_antennes[i].CP == P_CODE) {
+                    Orange_Antenne.Add(Mes_antennes[i]);
+                }
+            }
+
+            return Orange_Antenne;
+        }
+        public List<C_4G> Get_Just_SFR(string P_CODE)
+        {
+            
+            var SFR_Antenne = new List<C_4G>();
+
+            for (int i = 0; i < Mes_antennes.Length; i++) {
+
+                if ((Mes_antennes[i].Adm) =="SFR" && Mes_antennes[i].CP == P_CODE) {
+                    SFR_Antenne.Add(Mes_antennes[i]);
+                }
+            }
+            return SFR_Antenne;
+        }
+        public  List<C_4G> Get_Just_BOUYGUES(string P_CODE)
+        {
+
+            var BOUYGUES_Antenne = new List<C_4G>();
+
+            for (int i = 0; i < Mes_antennes.Length; i++) {
+
+                if ((Mes_antennes[i].Adm) == "BOUYGUES TELECOM" && Mes_antennes[i].CP == P_CODE) {
+                    BOUYGUES_Antenne.Add(Mes_antennes[i]);
+                }
+            }
+            return BOUYGUES_Antenne;
+        }
         public C_4G[] Get_All_Antennes()
         {
             return Mes_antennes;
