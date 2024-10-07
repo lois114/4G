@@ -1,0 +1,463 @@
+[
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "cd2e4f2d7114105a7659abdef3651e27e2c508fc",
+    "fields": {
+      "libelle": "POLYCLINIQUE LA LOUVIERE",
+      "geo_point_2d": [ 50.646525918063, 3.0839808893926 ],
+      "commune": "LILLE",
+      "url": "http://hopital-prive-la-louviere-lille.ramsaygds.fr/",
+      "objectid": "979",
+      "geometry": {
+        "coordinates": [ 3.0839808893926, 50.646525918063 ],
+        "type": "Point"
+      },
+      "code_postal": "59000"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.0839808893926, 50.646525918063 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "33654c650817ed13fe47fecb9d330c1464b85e6d",
+    "fields": {
+      "libelle": "CLINIQUE SAINT ROCH",
+      "geo_point_2d": [ 50.732780094211, 3.1150450150252 ],
+      "commune": "RONCQ",
+      "url": "http://www.clinique-saintroch.fr/",
+      "objectid": "1395",
+      "geometry": {
+        "coordinates": [ 3.1150450150252, 50.732780094211 ],
+        "type": "Point"
+      },
+      "code_postal": "59223"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.1150450150252, 50.732780094211 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "9fac792eb4e6301bead76e8a10dc9215faa9516e",
+    "fields": {
+      "libelle": "CENTRE HOSPITALIER DE ROUBAIX VICTOR PROVO",
+      "geo_point_2d": [ 50.679184980241, 3.1738580936278 ],
+      "commune": "ROUBAIX",
+      "url": "http://www.ch-roubaix.fr",
+      "objectid": "1410",
+      "geometry": {
+        "coordinates": [ 3.1738580936278, 50.679184980241 ],
+        "type": "Point"
+      },
+      "code_postal": "59100"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.1738580936278, 50.679184980241 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "f37e3649bdb2913c909f109f86c6a0c65e0cfbeb",
+    "fields": {
+      "libelle": "HOPITAL DE LA FRATERNITE",
+      "geo_point_2d": [ 50.682631972865, 3.1977990323818 ],
+      "commune": "ROUBAIX",
+      "url": "http://www.ch-roubaix.fr",
+      "objectid": "1428",
+      "geometry": {
+        "coordinates": [ 3.1977990323818, 50.682631972865 ],
+        "type": "Point"
+      },
+      "code_postal": "59100"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.1977990323818, 50.682631972865 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "4d6f19eb005e00c72bf510f625382952c0103648",
+    "fields": {
+      "libelle": "CLINIQUE LILLE SUD SOS MAINS HPM",
+      "geo_point_2d": [ 50.588910778597, 3.0895158764643 ],
+      "commune": "LESQUIN",
+      "url": "http://www.groupehpm.com/clinique-lille-sud",
+      "objectid": "830",
+      "geometry": {
+        "coordinates": [ 3.0895158764643, 50.588910778597 ],
+        "type": "Point"
+      },
+      "code_postal": "59810"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.0895158764643, 50.588910778597 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "4b64fb0bb2b597f5aad59f77dc91c476428efa67",
+    "fields": {
+      "libelle": "HOPITAL SAINT PHILIBERT GROUPE INSTITUT CATHOLIQUE",
+      "geo_point_2d": [ 50.651408570099, 2.9731785291834 ],
+      "commune": "(LOMME) LILLE",
+      "url": "http://www.saintphilibert-lomme.fr/",
+      "objectid": "1036",
+      "geometry": {
+        "coordinates": [ 2.9731785291834, 50.651408570099 ],
+        "type": "Point"
+      },
+      "code_postal": "59160"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 2.9731785291834, 50.651408570099 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "a5d3c6286c11aad2c8d5f72291ef8c958e240e7e",
+    "fields": {
+      "libelle": "CENTRE HOSPITALIER",
+      "geo_point_2d": [ 50.700765107116, 3.222045876807 ],
+      "commune": "WATTRELOS",
+      "url": "http://www.ch-wattrelos.com",
+      "objectid": "1877",
+      "geometry": {
+        "coordinates": [ 3.222045876807, 50.700765107116 ],
+        "type": "Point"
+      },
+      "code_postal": "59150"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.222045876807, 50.700765107116 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "d95b4c9000ac23340f1b71a18f904d7c0c7af4d7",
+    "fields": {
+      "libelle": "CLINIQUE DU SPORT ET DE CHIRURGIE ORTHOPEDIQUE HPM",
+      "geo_point_2d": [ 50.666511004338, 3.1015786863365 ],
+      "commune": "MARCQ-EN-BAROEUL",
+      "url": "http://www.clinique-sport-lille.fr/",
+      "objectid": "1168",
+      "geometry": {
+        "coordinates": [ 3.1015786863365, 50.666511004338 ],
+        "type": "Point"
+      },
+      "code_postal": "59700"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.1015786863365, 50.666511004338 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "85054f282e6b9c883fbdd2a0a3f9748ec671d1f2",
+    "fields": {
+      "libelle": "CENTRE HOSPITALIER JEAN LUXEMBOURG",
+      "geo_point_2d": [ 50.613026146365, 2.9867619147728 ],
+      "commune": "HAUBOURDIN",
+      "url": "http://www.ghlh.fr",
+      "objectid": "6229",
+      "geometry": {
+        "coordinates": [ 2.9867619147728, 50.613026146365 ],
+        "type": "Point"
+      },
+      "code_postal": "59320"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 2.9867619147728, 50.613026146365 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "2e8ddc2c489b7a9a0273eae9dd34be58f42920d8",
+    "fields": {
+      "libelle": "CHR CENTRE HOSPITALIER DE SECLIN",
+      "geo_point_2d": [ 50.546653857684, 3.0178384707057 ],
+      "commune": "SECLIN",
+      "url": "http://www.ch-seclin.fr/index/1/1",
+      "objectid": "1571",
+      "geometry": {
+        "coordinates": [ 3.0178384707057, 50.546653857684 ],
+        "type": "Point"
+      },
+      "code_postal": "59113"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.0178384707057, 50.546653857684 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "ab53e3f94f95953e7e8c521e81fdb1de755e0a0b",
+    "fields": {
+      "libelle": "CLINIQUE DE LA MITTERIE",
+      "geo_point_2d": [ 50.653905434129, 2.9923673686701 ],
+      "commune": "(LOMME) LILLE",
+      "url": "http://www.clinique-mitterie.com",
+      "objectid": "3857",
+      "geometry": {
+        "coordinates": [ 2.9923673686701, 50.653905434129 ],
+        "type": "Point"
+      },
+      "code_postal": "59160"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 2.9923673686701, 50.653905434129 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "3ea175d01e56e7864c1fda24808de90098016248",
+    "fields": {
+      "libelle": "CHR CENTRE HOSPITALIER",
+      "geo_point_2d": [ 50.684691232424, 2.8678620087113 ],
+      "commune": "ARMENTIERES",
+      "url": "http://www.ch-armentieres.fr",
+      "objectid": "184",
+      "geometry": {
+        "coordinates": [ 2.8678620087113, 50.684691232424 ],
+        "type": "Point"
+      },
+      "code_postal": "59280"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 2.8678620087113, 50.684691232424 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "6e6dc412be83c425ddc45fbf27406e7d0dfc1c40",
+    "fields": {
+      "libelle": "CHR CENTRE HOSPITALIER LOOS HAUBOURDIN",
+      "geo_point_2d": [ 50.610580705954, 3.0079183416268 ],
+      "commune": "LOOS",
+      "url": "http://www.ghlh.fr",
+      "objectid": "1095",
+      "geometry": {
+        "coordinates": [ 3.0079183416268, 50.610580705954 ],
+        "type": "Point"
+      },
+      "code_postal": "59120"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.0079183416268, 50.610580705954 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "598d5956765b13382872bc6e47ecc44c2745fd4a",
+    "fields": {
+      "libelle": "HOPITAL PRIVE LE BOIS",
+      "geo_point_2d": [ 50.63392480718, 3.0315639852307 ],
+      "commune": "LILLE",
+      "url": "http://www.polyclinique-bois.com",
+      "objectid": "3350",
+      "geometry": {
+        "coordinates": [ 3.0315639852307, 50.63392480718 ],
+        "type": "Point"
+      },
+      "code_postal": "59000"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.0315639852307, 50.63392480718 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "0132fd43bf2745b94172fe4b7dfa9a874d9b45df",
+    "fields": {
+      "libelle": "CENTRE HOSPITALIER REGIONAL ET UNIVERSITAIRE",
+      "geo_point_2d": [ 50.608683240833, 3.0359964689281 ],
+      "commune": "LILLE",
+      "url": "http://www.chru-lille.fr",
+      "objectid": "5538",
+      "geometry": {
+        "coordinates": [ 3.0359964689281, 50.608683240833 ],
+        "type": "Point"
+      },
+      "code_postal": "59000"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.0359964689281, 50.608683240833 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "25832a9b4650dcbc64fe9ac1ccb6ec6ebc51d7c8",
+    "fields": {
+      "libelle": "CLINIQUE DE LA VICTOIRE HPM",
+      "geo_point_2d": [ 50.716474713557, 3.1566517936809 ],
+      "commune": "TOURCOING",
+      "url": "http://www.groupehpm.com/clinique-victoire-tourcoing",
+      "objectid": "5619",
+      "geometry": {
+        "coordinates": [ 3.1566517936809, 50.716474713557 ],
+        "type": "Point"
+      },
+      "code_postal": "59200"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.1566517936809, 50.716474713557 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "93796d1cb687609190e598edf263d92ced60d3b1",
+    "fields": {
+      "libelle": "HOPITAL PRIVE DE VILLENEUVE D'ASCQ",
+      "geo_point_2d": [ 50.653025586061, 3.1522153130759 ],
+      "commune": "VILLENEUVE D'ASCQ",
+      "url": "http://www.generale-de-sante.fr/hopital-prive-de-villeneuve-d-ascq",
+      "objectid": "2109",
+      "geometry": {
+        "coordinates": [ 3.1522153130759, 50.653025586061 ],
+        "type": "Point"
+      },
+      "code_postal": "59650"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.1522153130759, 50.653025586061 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "7e8305546e070ea96ad59221c68ba2d2081391ec",
+    "fields": {
+      "libelle": "CLINIQUE SAINT JEAN",
+      "geo_point_2d": [ 50.685928608314, 3.1783186099495 ],
+      "commune": "ROUBAIX",
+      "objectid": "1416",
+      "geometry": {
+        "coordinates": [ 3.1783186099495, 50.685928608314 ],
+        "type": "Point"
+      },
+      "code_postal": "59100"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.1783186099495, 50.685928608314 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "ed309cba64cdc0b837d7532a763ace8ae62b7528",
+    "fields": {
+      "libelle": "POLYCLINIQUE DU VAL DE LYS",
+      "geo_point_2d": [ 50.72466685886, 3.1480334964495 ],
+      "commune": "TOURCOING",
+      "url": "http://www.groupehpm.com/cliniques/index/87",
+      "objectid": "1734",
+      "geometry": {
+        "coordinates": [ 3.1480334964495, 50.72466685886 ],
+        "type": "Point"
+      },
+      "code_postal": "59200"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.1480334964495, 50.72466685886 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "ffeb673d943b2d37b5672479df772bfc3fedf1c6",
+    "fields": {
+      "libelle": "HOPITAL SAINT VINCENT DE PAUL GROUPE INSTITUT CATHOLIQUE",
+      "geo_point_2d": [ 50.62025214324, 3.0772078713804 ],
+      "commune": "LILLE",
+      "url": "http://www.saintvincentdepaul-lille.fr/",
+      "objectid": "4238",
+      "geometry": {
+        "coordinates": [ 3.0772078713804, 50.62025214324 ],
+        "type": "Point"
+      },
+      "code_postal": "59000"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.0772078713804, 50.62025214324 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "8a00e4b11303411607f8e69a4f9aa0f6c692b07a",
+    "fields": {
+      "libelle": "CLINIQUE AMBROISE PARE HPM",
+      "geo_point_2d": [ 50.649161893763, 3.0855275987983 ],
+      "commune": "LILLE",
+      "url": "http://www.groupehpm.com/clinique-ambroisepare-lille",
+      "objectid": "4259",
+      "geometry": {
+        "coordinates": [ 3.0855275987983, 50.649161893763 ],
+        "type": "Point"
+      },
+      "code_postal": "59000"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.0855275987983, 50.649161893763 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  },
+  {
+    "datasetid": "localisation-hopitaux",
+    "recordid": "de682743c7eec41855dde6c1936020bc9f03d849",
+    "fields": {
+      "libelle": "CENTRE HOSPITALIER GUSTAVE DRON",
+      "geo_point_2d": [ 50.744660594151, 3.1803199436307 ],
+      "commune": "TOURCOING",
+      "url": "http://www.ch-tourcoing.fr",
+      "objectid": "1668",
+      "geometry": {
+        "coordinates": [ 3.1803199436307, 50.744660594151 ],
+        "type": "Point"
+      },
+      "code_postal": "59200"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ 3.1803199436307, 50.744660594151 ]
+    },
+    "record_timestamp": "2023-10-03T00:00:14.105+02:00"
+  }
+]

@@ -87,6 +87,9 @@
     <None Include="Emetteurs_Reduits_2023.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="localisation-hopitaux.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="regions.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
